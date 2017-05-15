@@ -60,39 +60,34 @@ header a:hover{
 
 /** showcase **/
 #showcase img{
+  padding: 20px;
   display: block;
-  margin: auto;
-  width: 40%;
+  width: 50%;
+  margin:auto;
 }
 
 /* boxes **/
-#boxes .clan{
-  position: absolute;
-  top:50%;
-  left:60%;
-  right:50%;
-  width: 150px;
+#boxes{
+
 }
 
-#boxes .download{
-  position:absolute;
-  top:50%;
-  left:40%;
-  right:50%;
-  width: 150px;
+#boxes .box{
+  float: left;
 }
 
-#boxes .join{
-  position: absolute;
-  top:50%;
-  left:20%;
-  right:50%;
-  width: 150px;
+#boxes .box img{
+  float: left;
+  max-width: 200px;
 }
 
 footer{
-  padding: 20px;
-  margin-top: 20px;
+  font-family: arial;
+  height: 70px;
+  width: 100%;
+  padding: 0px;
+  color:#ffffff;
   background-color:#ff0000;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
