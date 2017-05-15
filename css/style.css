@@ -8,11 +8,6 @@ body{
   overflow: hidden;
 }
 
-ul{
-  margin:0;
-  padding:0;
-}
-
 /*header **/
 header{
   background-color:#696969;
@@ -29,6 +24,11 @@ header a{
   font-size:16px;
 }
 
+header ul{
+  margin:0;
+  padding:0;
+}
+
 header li{
   float: left;
   display: inline;
@@ -41,7 +41,6 @@ header #branding{
 
 header #branding h1{
   margin: 0px;
-  float: left;
 }
 
 header nav{
@@ -55,25 +54,45 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-  color:#FF0000;
+  color:#cccccc;
   font-weight: bold;
 }
 
 /** showcase **/
 #showcase img{
-  max-width: 100%;
-  height: auto;
-  height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 40%;
 }
 
 /* boxes **/
-#boxes{
-
+#boxes .clan{
+  position: absolute;
+  top:50%;
+  left:60%;
+  right:50%;
+  width: 150px;
 }
 
-#boxes .box{
-  float: left;
+#boxes .download{
+  position:absolute;
+  top:50%;
+  left:40%;
+  right:50%;
+  width: 150px;
+}
+
+#boxes .join{
+  position: absolute;
+  top:50%;
+  left:20%;
+  right:50%;
+  width: 150px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  background-color:#ff0000;
+  text-align: center;
 }
