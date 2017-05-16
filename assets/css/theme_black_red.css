@@ -1436,16 +1436,6 @@ i {
     display: block;
 }
 
-.is-site-bg-video .site-bg__img {
-    display: block;
-    background-image: url(../img/bg/site-bg-video.jpg);
-}
-
-.is-site-bg-video-youtube .site-bg__img {
-    display: block;
-    background-image: url(../img/bg/site-bg-video-youtube.jpg);
-}
-
 .is-each .site-bg__img {
     display: block;
 }
@@ -1516,21 +1506,6 @@ i {
 
 .is-site-bg-star .site-bg__canvas {
     display: block;
-}
-
-
-/* cloud */
-
-.cloud-01 {
-    background-image: url(../img/bg/cloud-01.png);
-}
-
-.cloud-02 {
-    background-image: url(../img/bg/cloud-02.png);
-}
-
-.cloud-03 {
-    background-image: url(../img/bg/cloud-03.png);
 }
 
 

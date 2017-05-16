@@ -177,7 +177,6 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(../img/vendor/owl_carousel/owl.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -711,22 +710,6 @@ screen and (max-height:300px) {
 }
 
 
-/*!
- * jquery.mb.components
- * file: jquery.mb.YTPlayer.src.js
- * last modified: 01/07/15 19.35
- * Open Lab s.r.l., Florence - Italy
- * email: matteo@open-lab.com
- * site: http://pupunzi.com
- * http://open-lab.com
- * blog: http://pupunzi.open-lab.com
- * Q&A:  http://jquery.pupunzi.com
- * Licences: MIT, GPL
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
- * Copyright (c) 2001-2015. Matteo Bicocchi (Pupunzi);
- * --------------------------------------------------
- */
 
 .mb_YTPBar,
 .mb_YTPBar span.mb_YTPUrl a {
