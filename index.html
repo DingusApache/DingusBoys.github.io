@@ -1,69 +1,591 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths desktop landscape is-desktop"
+    lang="en" style="">
+<!--<![endif]-->
+
+<head>
+    <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflHJ3SDg/www-widgetapi.js" async=""></script>
+    <script src="https://www.youtube.com/iframe_api?v=2.9.4" id="YTAPI"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Gaming Community">
-    <meta name="keywords" content="DingusBoys Gaming Community">
-    <meta name="author" content="Corbet Archer">
-    <title>DingusBoys | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dingus Boys</title>
+    <meta name="description" content="A Global Gaming Community - Hosting Private and Public Game Servers">
+    <meta name="keywords" content="forum, community, rust, steam, online, gaming, ark, games">
+    <meta name="author" content="Archer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:url" content="http://www.dingusboys.com/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Dingus Boys Online Gaming Community">
+    <meta property="og:description" content="A Global Gaming Community - Hosting Teamspeak">
+    <meta property="og:image" content="http://i.imgur.com/UsqA10G.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" href="www.godsofsalt.com/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <!-- plugin -->
+    <link rel="stylesheet" href="assets/css/theme_black_red.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- custom style -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lte IE 9]><!-->
+    <script src="assets/js/vendor/html5shiv.min.js"></script>
+    <!--<![endif]-->
+</head>
 
-      <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-        <iframe frameborder="0" height="100%" width="100%"
-          src="https://youtube.com/embed/3rBsW63hwz4?loop=1&autoplay=1&controls=0&showinfo=0&autohide=1">
-        </iframe>
-      </div>
+<!-- to edit the animation, please read documentation <animation> section -->
 
-      <div class="container">
-        <div id="branding">
-            <h1><span class="highlight">Dingus</span>Boys</h1>
-        </div>
-        <nav>
-          <ul class="site-nav__menu">
-            <li class="current"><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="staff.html">Staff</a></li>
-            <li><a href="https://www.twitch.tv/archerlgaming/" target="_blank">Stream</a></li>
-            <li><a href="https://www.paypal.com/donate/?token=zyMBUdvpwdBDcH9TfMlOUSz0IuIYf6NTWPr5E7pdKlTq0H-oDySZOg6rC551q1qOywlfo0">Donate</a></li>
-            <li><a href="apparel.html">Apparel</a></li>
-          </ul>
-        </nav>
-        </div>
-      </div>
-    </header>
+<body class="border-on is-site-bg-video-youtube is-audio-on home-in is-loaded is-site-bg-star">
 
-    <section id="showcase">
-      <div class="container">
-        <img src="./img/dblogo.png">
-      </div>
-    </section>
+    <!-- site loader -->
+    <div class="site-loader" style="opacity: 0; display: none;">
+        <span></span>
+        <p>Dingus Boys</p>
+        <!-- site loader text -->
+    </div>
+    <!-- site loader -->
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <a href="https://steamcommunity.com/groups/DingusBoys">
-          <img src="./img/clan.png">
-          </a>
+    <!-- site bg -->
+    <div class="site-bg" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+        <div class="site-bg__img"></div>
+        <div class="site-bg__video mb_YTPlayer isMuted" data-property="{videoURL: _bg_video_youtube_url, autoPlay: true, loop: _bg_video_youtube_loop, startAt: _bg_video_youtube_start, stopAt: _bg_video_youtube_end, mute: false, quality: _bg_video_youtube_quality, realfullscreen: true, optimizeDisplay: true, addRaster: false, showYTLogo: false, showControls: false, stopMovieOnBlur: false, containment: &quot;self&quot;}"
+            id="video_1494893711055">
+            <div class="mbYTP_wrapper" id="wrapper_mbYTP_video_1494893711055" style="position: absolute; z-index: 0; min-width: 100%; min-height: 100%; left: 0px; top: 0px; overflow: hidden; opacity: 0;"><iframe id="mbYTP_video_1494893711055" class="playerBox" style="position: absolute; z-index: 0; width: 2480.8px; height: 1180px; top: 0px; left: 0px; overflow: hidden; opacity: 1; margin-top: -103px; margin-left: -280.4px;" frameborder="0"
+                    allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/MdiNNBu3UT0?autoplay=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=mbYTP_video_1494893711055&amp;origin=http%3A%2F%2Fgodsofsalt.com&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;html5=1&amp;widgetid=1"></iframe>
+                <div
+                    class="YTPOverlay" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
         </div>
-        <div class="box">
-          <a href="https://www.teamspeak.com/downloads.html">
-          <img src="./img/download.png">
-          </a>
-        </div>
-        <div class="box">
-          <a href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=DingusBoys">
-          <img src="./img/join.png">
-          </a>
-        </div>
-      </div>
-    </section>
+    </div>
+    <div class="site-bg__overlay"></div>
+    <div class="site-bg__effect layer" data-depth=".30" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></div>
+    <!-- parallax data, try edit to other number :) -->
+    <canvas class="site-bg__canvas layer velocity-animating" data-depth=".30" width="1920" height="974" style="opacity: 0.136888; position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></canvas>
+    <!-- parallax data, try edit to other number :) -->
+    </div>
+    <!-- /site bg -->
 
-    <footer>
-      <p>DingusBoys.com Copyright &copy; 2017 </p>
-    </footer>
-  </body>
+    <!-- site nav -->
+    <nav class="site-nav">
+        <div class="site-nav__table">
+            <div class="site-nav__cell">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="site-nav__inner">
+                                <!-- menu -->
+                                <ul class="site-nav__menu">
+                                    <li><a href="#home" class="is-active">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#clan">Clan</a></li>
+                                    <li><a href="#contact">Staff &amp; Contact</a></li>
+                                </ul>
+                                <ul class="site-nav__social">
+                                    <li><a href="http://steamcommunity.com/groups/DingusBoys" target="_blank">Steamgroup</a></li>
+                                    <li><a href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=DingusBoys" target="_blank"><span class="color">Teamspeak</span></a></li>
+                                    <li><a href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=" target="_blank"><span class="color">Teamspeak</span></a></li>
+                                </ul>
+                                <!-- /menu -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- /site nav -->
+
+    <!-- site wrap -->
+    <div class="site-wrap ps-container" data-ps-id="984b377d-86ad-797c-bc41-cf01cf8697e3">
+        <!-- site header -->
+        <header class="site-header">
+            <div class="container">
+
+
+                <!-- site header icon -->
+                <ul class="site-header__icon">
+                    <!-- audio icon -->
+                    <li class="site-header__icon__audio">
+                        <a href="#">
+                            <i class="audio-bar">
+                <span class="audio-bar__item"></span>
+                <span class="audio-bar__item"></span>
+                <span class="audio-bar__item"></span>
+                <span class="audio-bar__item"></span>
+              </i>
+                        </a>
+                    </li>
+                    <!-- /audio icon -->
+
+                    <!-- menu icon -->
+                    <li class="site-header__icon__nav">
+                        <a href="#">
+                            <i class="ion-android-menu"></i>Menu
+
+                        </a>
+                    </li>
+                    <!-- /menu icon -->
+                </ul>
+                <!-- /site header icon -->
+            </div>
+        </header>
+        <!-- /site header -->
+
+        <!-- site main -->
+        <main class="site-main">
+            <!-- home -->
+            <div id="home" class="section is-active">
+                <div class="section__table">
+                    <div class="section__cell">
+                        <div class="container-fluid max-width">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item animated fadeInUp2" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="700" style="animation-delay: 800ms;">
+                                            <img src="http://i.imgur.com/AjkIWNK.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item animated fadeInDown" data-animation-in="fadeInDown" data-animation-in-delay="900" data-animation-out="fadeOutDown" data-animation-out-delay="300" style="animation-delay: 1400ms;">
+
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item animated fadeInUp2" data-animation-in="fadeInUp2" data-animation-in-delay="1100" data-animation-out="fadeOutDown2" data-animation-out-delay="100" style="animation-delay: 1600ms;">
+                                            <div class="btn-wrap">
+                                                <a class="btn btn-base _icon _circle" href="#about" data-link="section">
+                                                    <!-- link to section, edit the [href] and add [data-link="section"] -->
+                                                    <i class="ion-ios-pulse"></i> About
+                                                </a>
+                                                <a class="btn btn-theme _icon _circle" href="http://teamspeak.com/downloads.html">
+                                                    <i class="ion-arrow-down-a"></i> Download TS
+                                                </a>
+                                                <a class="btn btn-base _icon _circle" href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=DingusBoys">
+                                                    <i class="ion-android-microphone"></i> Join TS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /home -->
+
+            <!-- about -->
+            <div id="about" class="section">
+                <div class="section__table">
+                    <div class="section__cell">
+                        <div class="container">
+                            <!-- section heading -->
+                            <div class="section__heading row">
+                                <div class="col-xs-12 col-md-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="600">
+                                            <h2 class="section__title">
+                       What is a <span class="color">Dingus Boy</span>?
+                      </h2>
+                                            <div class="hr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="400">
+                                            <p class="section__caption">
+                                                Founded November 2016 we are a online gaming community that just wants to have a fun. You join a boy and come out a DingusBoy.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section heading -->
+
+                            <!-- section content -->
+                            <div class="section__content row">
+                                <div class="col-xs-12 col-md-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInLeft" data-animation-in-delay="900" data-animation-out="fadeOutLeft" data-animation-out-delay="100">
+                                            <div class="about__item">
+                                                <i class="ion-android-contacts"></i>
+                                                <h3>A Gaming Community</h3>
+                                                <p></p>
+                                            </div>
+                                            <div class="about__item">
+                                                <i class="ion-android-person"></i>
+                                                <h3>Make a difference</h3>
+                                                <p>By donating to our clan it helps with streaming equpiment and possable servers in the future.</p>
+                                            </div>
+                                            <div class="about__item">
+                                                <i class="ion-steam"></i>
+                                                <h3>TeamSpeak</h3>
+                                                <p>We host our own servers, being a member grants you a reserved slot in any of them.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInRight" data-animation-in-delay="900" data-animation-out="fadeOutRight" data-animation-out-delay="100">
+                                            <p></p>
+                                            <p></p>
+                                            <p>Anyone from anywhere is welcome to join us, all you need is a working microphone to join TS.</p>
+                                            <a class="btn btn-theme _icon _circle" href="#service" data-link="section">
+                                                <i class="ion-network"></i> Our Servers
+                                            </a>
+                                            <a class="btn btn-theme _icon _circle" href="#clan" data-link="section">
+                                                <i class="icon ion-android-contacts"></i> The Clan
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /about -->
+            <!-- clan -->
+            <div id="clan" class="section">
+                <div class="section__table">
+                    <div class="section__cell">
+                        <div class="container">
+                            <!-- section heading -->
+                            <div class="section__heading row">
+                                <div class="col-xs-12 col-md-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="600">
+                                            <h2 class="section__title">
+                       Our <span class="color">Clan</span>
+                      </h2>
+                                            <div class="hr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="400">
+                                            <p class="section__caption">
+                                                Its always nice to be a part of something when you start a new game, we pride ourselves on the skill and size of our clans, and the ability to help new players to a place where they want to be.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section heading -->
+
+                            <!-- section content -->
+                            <div class="section__content row">
+                                <div class="col-xs-12 col-md-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInLeft" data-animation-in-delay="900" data-animation-out="fadeOutLeft" data-animation-out-delay="100">
+                                            <div class="about__item">
+                                                <i class="ion-android-contacts"></i>
+                                                <h3>Rust</h3>
+                                                <p>We started on rust and are trying to expand.</p>
+                                            </div>
+                                            <div class="about__item">
+                                                <i class="ion-android-person"></i>
+                                                <h3>Elder Scrolls online</h3>
+                                                <p>Our newest section - ESO has gone off with a bang - nearly 150 members, We can offer you help guidance and gear. Run by Dex and Nutster - you can contact any member of the ESO Guild for an invite.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInRight" data-animation-in-delay="900" data-animation-out="fadeOutRight" data-animation-out-delay="100">
+                                            <p>If you ever need a clan on a game, we can help you, our community covers a huge range of games, this means always having someone to play with.</p>
+                                            <p>And if by some chance we don't have a section for that game - you are welcome to start and run it yourself - a section and channels will be provided for you, with help if you need it.</p>
+                                            <a class="btn btn-theme _icon _circle" href="#service" data-link="section">
+                                                <i class="ion-network"></i> Our Servers
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /clan -->
+            <!-- service -->
+            <div id="service" class="section">
+                <div class="section__table">
+                    <div class="section__cell">
+                        <div class="container">
+                            <!-- section heading -->
+                            <div class="section__heading row">
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="600">
+                                            <h2 class="section__title">
+                       Our <span class="color">Servers</span>
+                      </h2>
+                                            <div class="hr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="400">
+                                            <p class="section__caption">
+                                                Our servers are run from a high performance DDoS protected machine. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section heading -->
+
+                            <!-- section content -->
+                            <div class="service section__content row">
+                                <div class="col-xs-12">
+                                    <div id="serviceCarousel" class="owl-carousel overflow-hidden owl-loaded owl-drag">
+                                        <!-- service item -->
+
+                                        <!-- /service item -->
+                                        <!-- service item -->
+
+                                        <!-- /service item -->
+
+                                        <!-- /service item -->
+                                        <!-- /service item -->
+
+                                        <!-- /service item -->
+
+                                        <!-- service item -->
+
+                                        <!-- /service item -->
+                                        <div class="owl-stage-outer">
+                                            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1950px;">
+                                                <div class="owl-item active" style="width: 360px; margin-right: 30px;">
+                                                    <div class="service__item" data-animation-in="fadeInUp" data-animation-in-delay="600" data-animation-out="fadeOutDown" data-animation-out-delay="100">
+                                                        <div class="service__item__icon">
+                                                            <i class="icon ion-steam"></i>
+                                                        </div>
+                                                        <h3 class="service__item-title">Rust 4x</h3>
+                                                        <div class="hr"></div>
+                                                        <p>Our Main and most popular server, fast wipes, high pop, fast gameplay. This server wipes on Thursdays and Mondays. Don't worry, you WILL learn to love it.</p>
+                                                        <a class="btn btn-theme _icon _circle" href="steam://connect/server1.godsofsalt.com:28015/">
+                                                            <i class="ion-steam"></i> Join 3x/4x Server
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item active" style="width: 360px; margin-right: 30px;">
+                                                    <div class="service__item" data-animation-in="fadeInUp" data-animation-in-delay="800" data-animation-out="fadeOutDown" data-animation-out-delay="300">
+                                                        <div class="service__item__icon">
+                                                            <i class="icon ion-android-microphone"></i>
+                                                        </div>
+                                                        <h3 class="service__item-title">Teamspeak</h3>
+                                                        <div class="hr"></div>
+                                                        <p>We have a huge teamspeak, open to everyone, poke an Admin and ask for a private room, or join a public lobby and make some friends.</p>
+                                                        <a class="btn btn-theme _icon _circle" href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=DingusBoys">
+                                                            <i class="ion-android-microphone"></i> Join Teamspeak
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item active" style="width: 360px; margin-right: 30px;">
+                                                    <div class="service__item" data-animation-in="fadeInUp" data-animation-in-delay="700" data-animation-out="fadeOutDown" data-animation-out-delay="200">
+                                                        <div class="service__item__icon">
+                                                            <i class="icon ion-steam"></i>
+                                                        </div>
+                                                        <h3 class="service__item-title">GOS Starbound</h3>
+                                                        <div class="hr"></div>
+                                                        <p>A small open starbound server, Vanilla, no mods...</p>
+                                                        <a class="btn btn-theme _icon _circle" href="steam://connect/149.202.89.125:21025/">
+                                                            <i class="ion-steam"></i> Click to Join
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item" style="width: 360px; margin-right: 30px;">
+                                                    <div class="service__item" data-animation-in="fadeInUp" data-animation-in-delay="700" data-animation-out="fadeOutDown" data-animation-out-delay="200">
+                                                        <div class="service__item__icon">
+                                                            <i class="icon ion-steam"></i>
+                                                        </div>
+                                                        <h3 class="service__item-title">GOS Project Zomboid</h3>
+                                                        <div class="hr"></div>
+                                                        <p>A Vanilla PZ server 64 slots</p>
+                                                        <a class="btn btn-theme _icon _circle" href="steam://connect/149.202.89.125:16261/">
+                                                            <i class="ion-steam"></i> Click to Join
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item" style="width: 360px; margin-right: 30px;">
+                                                    <div class="service__item" data-animation-in="fadeInUp" data-animation-in-delay="700" data-animation-out="fadeOutDown" data-animation-out-delay="200">
+                                                        <div class="service__item__icon">
+                                                            <i class="icon ion-steam"></i>
+                                                        </div>
+                                                        <h3 class="service__item-title">GOS 7D2D</h3>
+                                                        <div class="hr"></div>
+                                                        <p>Vanilla</p>
+                                                        <a class="btn btn-theme _icon _circle" href="steam://connect/server1.godsofsalt.com:26901/">
+                                                            <i class="ion-steam"></i> Click to Join
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-dots disabled"></div>
+                                    </div>
+                                    <!-- carousel control -->
+                                    <div class="service__carousel-control" data-animation-in="fadeInUp" data-animation-in-delay="900" data-animation-out="fadeOutDown" data-animation-out-delay="100">
+                                        <div class="carousel-prev"></div>
+                                        <div class="carousel-next"></div>
+                                    </div>
+                                    <!-- /carousel control -->
+                                </div>
+                            </div>
+                            <!-- /section content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /service -->
+
+            <!-- contact -->
+            <div id="contact" class="section">
+                <div class="section__table">
+                    <div class="section__cell">
+                        <div class="container">
+                            <!-- section heading -->
+                            <div class="section__heading row">
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="600">
+                                            <h2 class="section__title">
+                       Staff <span class="color">&amp;</span> Contact
+                      </h2>
+                                            <div class="hr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                                    <div class="overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInUp2" data-animation-in-delay="300" data-animation-out="fadeOutDown2" data-animation-out-delay="400">
+                                            <p class="section__caption">
+                                                The best way to contact us is to add a staff member.
+                                            </p>
+                                            <p>If you have been banned and wish to discuss a possible unban, add <a href="http://steamcommunity.com/id/dingusboys/">[db]Archer</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /section heading -->
+
+                            <!-- section content -->
+                            <div class="section__content row">
+                                <div class="col-xs-12 col-sm-5 col-md-4">
+                                    <!-- contact info -->
+                                    <div class="contact-info overflow-hidden">
+                                        <div class="animation-item" data-animation-in="fadeInLeft" data-animation-in-delay="700" data-animation-out="fadeOutLeft" data-animation-out-delay="100">
+
+                                            <h4>Server Team</h4>
+                                            <li><a href="http://steamcommunity.com/id/dingusboys/">[db]Archer</a> - Admin - <i class="ion-ios-clock-outline"></i> EST</li>
+                                            <li><a href="http://steamcommunity.com/profiles/76561198313739408">[DB]Gbrown9971</a> - Admin - <i class="	ion-ios-clock-outline"></i> EST</li>
+                                            <li><a href="http://steamcommunity.com/id/Ahdpe/">Apache</a> - Admin - <i class="	ion-ios-clock-outline"></i> EST</li>
+                                        </div>
+                                    </div>
+                                    <!-- /contact info -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-offset-2">
+
+                                </div>
+                            </div>
+                            <!-- /section content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /portfolio-->
+        </main>
+        <!-- /site main -->
+
+        <!-- site footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="site-footer__inner">
+                            <!-- copyright -->
+                            <p class="site-footer__copyright">
+                                2017 @ <a href="#" target="_blank">DingusBoys.com</a> | All rights Reserved.
+                            </p>
+                            <!-- /copyright -->
+                            <!-- social -->
+                            <ul class="site-footer__social">
+                                <li><a href="http://steamcommunity.com/groups/dingusboys" target="_blank">Steamgroup</a></li>
+                                <li><a href="ts3server://ts3.dingusboys.com?port=9987&amp;addbookmark=DingusBoys" target="_blank"><span class="color">Teamspeak</span></a></li>
+                            </ul>
+                            <!-- /social -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /site footer -->
+        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
+            <div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div>
+        </div>
+        <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+            <div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div>
+        </div>
+    </div>
+    <!-- /site wrap -->
+
+    <!-- script -->
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/plugin.js"></script>
+    <script src="assets/js/variable.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- /script -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/581b3f7ecfdf421cf9838e55/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+    <div id="ShlQFih-1494893711366" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; position: fixed !important; border: 0px !important; min-height: 0px !important; min-width: 0px !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: auto !important; height: auto !important; z-index: 2000000000 !important; cursor: auto !important; float: none !important; bottom: 0px !important; left: 0px !important; right: auto !important; display: none;"><iframe id="ZJRQBqk-1494893711367" src="about:blank" frameborder="0" scrolling="no" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: auto !important; left: auto !important; position: static !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 320px !important; height: 400px !important; z-index: 999999 !important; cursor: auto !important; float: none !important; display: none !important;"></iframe>
+        <iframe
+            id="nkxuHAR-1494893711368" src="about:blank" frameborder="0" scrolling="no" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 66px !important; min-height: 66px !important; max-height: 66px !important; width: 62px !important; min-width: 62px !important; max-width: 62px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 10px !important; left: 15px !important; right: auto !important; display: block !important;"></iframe><iframe id="WbIzTqi-1494893711368" src="about:blank" frameborder="0" scrolling="no" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; display: none !important; z-index: 1000003 !important; cursor: auto !important; float: none !important; top: auto !important; bottom: 57px !important; left: 15px !important; right: auto !important; width: 62px !important; max-width: 62px !important; min-width: 62px !important; height: 22px !important; max-height: 22px !important; min-height: 22px !important;"></iframe>
+            <div
+                id="O9C1yIf-1494893711365" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none rgb(255, 255, 255) !important; opacity: 0 !important; top: 1px !important; bottom: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: auto !important; height: 45px !important; display: block !important; z-index: 999997 !important; cursor: move !important; float: none !important; left: 0px !important; right: 96px !important;"></div>
+    <div id="L1L5niI-1494893711366" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: 96px !important; bottom: auto !important; left: 0px !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 6px !important; height: 100% !important; display: block !important; z-index: 999998 !important; cursor: w-resize !important; float: none !important;"></div>
+    <div id="ojCyBQ3-1494893711366" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: 0px !important; bottom: auto !important; left: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 6px !important; height: 100% !important; display: block !important; z-index: 999998 !important; cursor: e-resize !important; float: none !important;"></div>
+    <div id="fdG33cX-1494893711366" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: 0px !important; bottom: auto !important; left: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 100% !important; height: 6px !important; display: block !important; z-index: 999998 !important; cursor: n-resize !important; float: none !important;"></div>
+    <div id="lvHAkf6-1494893711366" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: 0px !important; bottom: 0px !important; left: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 100% !important; height: 6px !important; display: block !important; z-index: 999998 !important; cursor: s-resize !important; float: none !important;"></div>
+    <div id="DOxJBKO-1494893711367" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: auto !important; bottom: auto !important; left: 0px !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 12px !important; height: 12px !important; display: block !important; z-index: 999998 !important; cursor: nw-resize !important; float: none !important;"></div>
+    <div id="PtyqMFs-1494893711367" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: 0px !important; bottom: auto !important; left: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 12px !important; height: 12px !important; display: block !important; z-index: 999998 !important; cursor: ne-resize !important; float: none !important;"></div>
+    <div id="Py42wEl-1494893711367" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: 0px !important; left: 0px !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 12px !important; height: 12px !important; display: block !important; z-index: 999998 !important; cursor: sw-resize !important; float: none !important;"></div>
+    <div id="Y45orDV-1494893711367" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: 0px !important; bottom: 0px !important; left: auto !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 12px !important; height: 12px !important; display: block !important; z-index: 999999 !important; cursor: se-resize !important; float: none !important;"></div>
+    <div class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: 0px !important; right: auto !important; bottom: auto !important; left: 0px !important; position: absolute !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 100% !important; height: 100% !important; display: none !important; z-index: 1000001 !important; cursor: move !important; float: left !important;"></div>
+    </div><iframe src="about:blank" style="display: none !important;"></iframe></body>
+
 </html>
